@@ -1,0 +1,56 @@
+.credits
+    padding: 100px 0px   
+
+    &__flex
+        margin-top: 60px
+        @include flex
+        position: relative
+        
+        &_item
+            width: 360px
+            text-align: left
+
+            h4
+                font-size: 1.5rem
+
+            span
+                @include spanDesc
+                margin-top: var(--app-20-fs)
+
+            &:last-child
+                
+                h4
+                    width: 105px
+                    position: relative
+
+                    &::after
+                        content: 'i',
+                        width: 24px
+                        height: 24px
+                        position: absolute
+                        top: -0.5rem
+                        right: -2rem
+                        font-weight: 400
+                        opacity: 0.7
+                        @include flex
+                        justify-content: center
+
+        &_warn
+            display: inline-block
+            top: 0px
+            right: 2px             
+            padding: 15px 20px
+            gap: 10px
+            font-size: 16px
+            font-weight: var(--app-400-fw)
+            position: absolute
+            width: 255px
+            height: 56px           
+            box-shadow: 0px 2px 8px rgba(20, 16, 36, 0.1)
+            border-radius: 5px
+            transform: translateY(-102%)
+                
+
+
+    /* Frame 21806 */
+

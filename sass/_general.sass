@@ -1,0 +1,125 @@
+* 
+    box-sizing: border-box
+    padding: 0px
+    margin: 0px
+
+
+:root
+    --app-18-fs: 18px
+    --app-20-fs: 20px
+    --app-30-fs: 30px
+    --app-36-fs: 36px
+    --app-50-fs: 50px
+    --app-60-fs: 60px
+    --app-70-fs: 70px
+   
+    --app-red-color: #D52027
+    --app-text-color: #141024
+    --app-violet-color: #141024
+    --app-white-color: #fff
+    --app-ph-color: #282944
+
+    --app-600-fw: 600
+    --app-400-fw: 400
+    
+    --app-5-br: 5px
+
+h1
+    font-size: var(--app-70-fs)
+    font-weight: var(--app-600-fw)   
+
+
+h2
+    font-size: var(--app-50-fs)    
+    font-weight: var(--app-600-fw)
+
+h3
+    font-size: var(--app-30-fs)    
+    font-weight: var(--app-400-fw)
+    line-height: 48px
+    width: 891px
+
+h4
+    font-size: 24px
+    font-weight: var(--app-600-fw)
+    line-height: 35.4px
+
+a
+    text-decoration: none
+    color: inherit
+
+    &:hover
+        color: var(--app-ph-color)
+
+ul
+    list-style-position: inside
+    list-style-type: none    
+
+
+
+button, input
+    outline: none
+    border: none
+    border-radius: var(--app-5-br)
+    font-family: inherit
+    color: var(--app-white-color)
+    letter-spacing: 0.5px
+    cursor: pointer
+
+body
+    font-family: "Jost", sans-serif
+    font-size: var(--app-30-fs)
+    color: var(--app-violet-color)
+   
+
+section
+    background-color: transparent       
+
+
+// ШАБЛОННЫЕ КЛАССЫ
+
+.container 
+    width: 1160px
+    margin: 0 auto
+    background: linear-gradient(to bottom left, var(--app-white-color) 50%, lighten(teal, 47%))
+    
+
+
+.redButton   
+    background-color: var(--app-red-color)
+    height: 79px
+    width: 280px
+    font-weight: var(--app-400-fw)
+    font-size: var(--app-18-fs)
+
+.digit
+    font-size: var(--app-70-fs)
+    line-height: 112px
+    font-weight: var(--app-600-fw)
+
+.ellipse
+    // color: var(--app-white-color)
+    border-radius: 50%
+    border: 80px solid var(--app-white-color)
+    width: 783px
+    height: 783px
+    margin-bottom: 100px
+
+// - PROG - 
+.level
+    width: 151px
+    height: 48px
+    font-weight: var(--app-600-fw)
+    font-size: var(--app-30-fs)
+    line-height: 160%
+    text-align: center
+   
+
+.phone
+    font-weight: var(--app-600-fw)
+    font-size: var(--app-30-fs)
+    line-height: 48px
+    text-align: right
+    height: 48px   
+
+     

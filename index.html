@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE TYPEGRATHY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.comp.css" />
+    <script src="./index.js" type="module" defer></script>
+    <title>ROBO-SCHOOL</title>
+  </head>
+  <body>
+    <header class="header">
+      <menu class="header__flex">
+        <div class="header__flex_logo">ROBO.SCHOOL</div>
+        <nav>
+          <ul class="header__nav">
+            <li><a href="" class="header__nav_link" target="_blanK">О школе</a></li>
+            <li><a href="" class="header__nav_link" target="_blanK">Тренеры</a></li>
+            <li><a href="" class="header__nav_link" target="_blanK">Стоимость</a></li>
+          </ul>
+        </nav>
+        <div><a href="tel:+78000001122" class="phone"> +7 800 000 11 22 </a></div>
+      </menu>
+      <div class="container header__container">
+        <!-- header__title -->
+        <section class="header__title">
+          <h1>ROBO SCHOOL</h1>
+          <span class="header__title_desc">
+            Курсы повышения квалификации по робототехнике для педагогов
+            начальной школы
+          </span>
+          <button class="redButton header__title_btn">
+            Записаться на курс
+          </button>
+        </section>
+      </div>
+      <!-- header__image -->
+      <div class="header__image">
+        <div class="ellipse"></div>
+        <img src="./img/portrait-smiling.png" alt="header__image" />
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- achievements -->
+      <section class="achievements">
+        <h3>
+          Robo School – учреждение для формирования кадрового педагогического
+          резерва в сфере робототехники и программирования
+        </h3>
+        <div class="achievements__stat">
+          <article class="achievements__stat_item">
+            <div class="digit">10</div>
+            <span>УМК по различным направлениям по робототехнике</span>
+          </article>
+          <article class="achievements__stat_item">
+            <div class="digit">20</div>
+            <span>Школ, в которых запущена робототехника</span>
+          </article>
+          <article class="achievements__stat_item">
+            <div class="digit">100</div>
+            <span>Педагогов прошедших курсы повышения квалификации</span>
+          </article>
+          <article class="achievements__stat_item">
+            <div class="digit">10 000</div>
+            <span>Обученных детей на базе собственных центров</span>
+          </article>
+        </div>
+      </section>
+      <!-- credits -->
+      <section class="credits">
+        <h2>Что вы получите после курса</h2>
+        <div class="credits__flex">
+          <span class="credits__flex_warn">При наличии свободных мест</span>
+          <article class="credits__flex_item">
+            <h4>Удостоверение</h4>
+            <span
+              >Дающее право преподавать робототехнику для детей 6-12 лет в
+              образовательных учреждениях</span
+            >
+          </article>
+          <article class="credits__flex_item">
+            <h4>Знания</h4>
+            <span
+              >По основам разработки учебно-методических комплексов по
+              робототехнике и программированию</span
+            >
+          </article>
+          <article class="credits__flex_item">
+            <h4>Практику</h4>
+            <span
+              >Возможность пройти практику по преподаванию робототехники на базе
+              R:ED LAB (в оффлайн или онлайн формате)</span
+            >
+          </article>
+        </div>
+      </section>
+      <!-- coaches -->
+      <section class="coaches">
+        <!-- <h2>Профессиональные тренеры</h2>
+        <section class="coaches__slider">
+          <div class="coaches__slider_tracker">
+            <article class="coaches__slider_coach">
+              <figure>
+                <img src="./img/irina.png" alt="irina.png" />
+                <figcaption>Ирина Лайм</figcaption>
+              </figure>
+              <span>преподаватель по робототехнике</span>
+              <a href="*" id="1">Подробнее </a>
+            </article>
+            <article class="coaches__slider_coach">
+              <figure>
+                <img src="./img/marina.png" alt="marina.png" />
+                <figcaption>Марина Орлова</figcaption>
+              </figure>
+              <span>преподаватель по робототехнике</span>
+              <a href="*" id="2">Подробнее </a>
+            </article>
+            <article class="coaches__slider_coach">
+              <figure>
+                <img src="./img/kosty.png" alt="kosty.png" />
+                <figcaption>Константин Назаров</figcaption>
+              </figure>
+              <span>преподаватель по робототехнике</span>
+              <a href="*" id="3">Подробнее </a>
+            </article>
+            <article class="coaches__slider_coach">
+              <figure>
+                <img src="./img/lisa.png" alt="lisa.png" />
+                <figcaption>Лиза Весенняя</figcaption>
+              </figure>
+              <span>преподаватель по робототехнике</span>
+              <a href="*" id="4">Подробнее </a>
+            </article>
+            <article class="coaches__slider_coach">
+              <figure>
+                <img src="./img/max.png" alt="max.png" />
+                <figcaption>Максим Петров</figcaption>
+              </figure>
+              <span>преподаватель по программированию</span>
+              <a href="*" id="5">Подробнее </a>
+            </article>            
+          </div>
+        </section>
+        <div class="coaches__controls">
+          <hr />
+          <div class="coaches__controls_arrows">
+            <img src="./icons/next.svg" alt="prev" id="prev" />
+            <img src="./icons/next.svg" alt="next" id="next" />
+          </div>
+        </div> -->
+      </section>
+      <!-- offers -->
+      <section class="offers">
+        <h2>Выберите нужный пакет</h2>
+        <div class="offers__flex">
+          <article class="offers__flex_item">
+            <div class="level">– PRO –</div>
+            <div class="digit">20.000 ₽</div>
+            <span>УМК по робототетхнике и программированию</span>
+            <button class="redButton offer_btn">Оставить заявку</button>
+          </article>
+          <article class="offers__flex_item">
+            <div class="level">– ROBO –</div>
+            <div class="digit">15.000 ₽</div>
+            <span>УМК по робототетхнике </span>
+            <button class="redButton offer_btn">Оставить заявку</button>
+          </article>
+          <article class="offers__flex_item">
+            <div class="level">– PROG –</div>
+            <div class="digit">10.000 ₽</div>
+            <span>УМК по программированию</span>
+            <button class="redButton offer_btn">Оставить заявку</button>
+          </article>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container footer__flex">
+        <section class="footer__discount">
+          <h3>Запишитесь на курс со скидкой 10%</h3>
+          <span>Акция действительна до 10 марта 2022 года</span>
+        </section>
+        <form class="footer__form">
+          <p class="">
+            <input type="text" name="name" placeholder="Имя" />
+          </p>
+          <p class="">
+            <input type="tel" name="tel" placeholder="Телефон" />
+          </p>
+          <p class="">
+            <input type="email" name="email" placeholder="E-mail" />
+          </p>
+          <p class="">
+            <input
+              type="submit"
+              name="submit"
+              value="Оформить заявку"
+              readonly
+            />
+          </p>
+        </form>
+      </div>
+      <div class="footer__mask">
+        <img src="./img/mask.png" alt="footer_mask" />
+        <img src="./img/mask.png" alt="footer_mask" />
+      </div>
+      <section class="footer__contacts">
+        <div class="footer__contacts_copyright">
+          <h3>ROBO.SCHOOL</h3>
+          <span>© GRI_SCHOOL</span>
+        </div>
+        <div><a href="tel:+78000001122" class="phone"> +7 800 000 11 22 </a></div>
+      </section>
+    </footer>
+    <!-- modal -->
+    <aside class="modal">
+      <!-- <section class="modal__header">
+        <div class="modal__header_img">
+          <img src="./img/irina.png" alt="modal__header_img" />
+        </div>
+        <div class="modal__header_desc">
+          <h4>Марина Орлова</h4>
+          <span>преподаватель по робототехнике</span>
+          <div>
+            <img alt="Facebook" src="./icons/Facebook.svg" />
+            <img alt="Instagram" src="./icons/Instagram.svg" />
+          </div>
+        </div>
+        <div class="modal__header_exit">Закрыть</div>
+      </section>
+      
+      <section class="modal__tabs">
+        <div class="modal__tabs_item">Образование</div>
+        <div class="modal__tabs_item">Опыт работы</div>
+      </section>
+
+      <section class="modal__content">
+        <p>
+          Сентябрь 1995 — Июнь 2000 Санкт-Петербургский политехнический
+          университет Петра Великого Факультет: Компьютерных наук и технологий
+          Специальность: Математика и компьютерные науки Форма обучения: Очная
+        </p>
+        <h4>Курсы и тренинги</h4>
+        <p>
+          Ноябрь 2020 — Февраль 2021
+          Программа дополнительного образования «3D Моделирование»
+          Место проведения: Институт дополнительного образования «Политех»
+        </p>
+        <h4>Курсы и тренинги</h4>
+        <p>
+          Ноябрь 2020 — Февраль 2021
+          Программа дополнительного образования «3D Моделирование»
+          Место проведения: Институт дополнительного образования «Политех»
+        </p>
+      </section> -->
+    </aside>
+  </body>
+</html>

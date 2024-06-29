@@ -1,0 +1,91 @@
+.footer
+
+    height: 619px    
+    padding: 87px
+    color: var(--app-white-color)
+    position: relative
+    overflow: hidden
+    background-color: var(--app-red-color)        
+
+    &__flex
+        @include flex
+        justify-content: center
+        align-items: start
+        background: none
+
+    &__discount
+        margin-top: 19px
+        width: 467px
+        margin-right: 67px
+
+        h3
+            font-size: 36px
+            line-height: 48px
+            font-weight: var(--app-600-fw)
+            width: 100%
+
+        span
+            @include spanDesc
+            font-size: var(--app-20-fs)
+            margin-top: var(--app-20-fs)
+
+    &__form
+        width: 500px
+        
+        input
+            display: inline-block
+            width: 100%
+            height: 64px
+            margin-bottom: 10px
+            padding: 19px
+            font-size: 18px
+
+            &::placeholder
+                font-size: 19px
+
+        p:last-child input
+            background-color: var(--app-violet-color)
+            opacity: 0.7
+            letter-spacing: 0.7px
+            position: relative
+            z-index: 2             
+
+    &__mask
+        overflow: hidden
+        position: absolute
+        left: 0px
+        top: 360px
+        width: 100%
+        display: flex
+
+    &__contacts
+        width: 100%
+        height: 159px
+        background-color: var(--app-violet-color)
+        position: absolute
+        left: 0px
+        bottom: 0px
+        opacity: 0.9
+        @include flex        
+        padding: 40px 100px
+
+    
+        &_copyright
+            width: 478px
+            height: 74px
+            display: flex
+            flex-direction: column
+
+            h3
+                font-weight: 700
+                font-size: var(--app-30-fs)                
+                line-height: 48px
+                height: 48px
+                width: 478px
+
+            span
+                margin-top: 5px
+                @include spanDesc
+                line-height: 25.6px
+                font-size: 16px    
+
